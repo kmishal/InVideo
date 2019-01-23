@@ -36,40 +36,31 @@ table {
   border-spacing: 0; }
 
 @font-face {
-  font-family: 'montserrat-bold';
-  src: url("../fonts/text-fonts/Montserrat-Bold.WOFF") format("woff");
+  font-family: 'SourceSansPro-Bold';
+  src: url("../fonts/text-fonts/SourceSansPro-Bold.WOFF") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'montserrat-light';
-  src: url("../fonts/text-fonts/Montserrat-Light.WOFF") format("woff");
+  font-family: 'SourceSansPro-Light';
+  src: url("../fonts/text-fonts/SourceSansPro-Light.WOFF") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'montserrat-regular';
-  src: url("../fonts/text-fonts/Montserrat-Regular.WOFF") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'averiasanslibre-bold';
-  src: url("../fonts/text-fonts/AveriaSansLibre-Bold.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'averiasanslibre-light.woff';
-  src: url("../fonts/text-fonts/AveriaSansLibre-Light.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'averiasanslibre-regular';
-  src: url("../fonts/text-fonts/AveriaSansLibre-Regular.woff") format("woff");
+  font-family: 'SourceSansPro-Regular';
+  src: url("../fonts/text-fonts/SourceSansPro-Regular.WOFF") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 h1 {
   color: orange; }
+
+.bold {
+  font-family: "SourceSansPro-Bold", sans-serif; }
+
+.regular {
+  font-family: "SourceSansPro-Regular", sans-serif; }
+
+.light {
+  font-family: "SourceSansPro-Light", sans-serif; }

@@ -3,3 +3,15 @@
 h1{
     color: orange;
 }
+
+.bold{
+    font-family: $header-bold;
+}
+
+.regular{
+    font-family: $text-regular;
+}
+
+.light{
+    font-family: $text-light;
+}

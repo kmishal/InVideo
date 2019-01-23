@@ -1,54 +1,30 @@
 @font-face {
-    font-family: 'montserrat-bold';
-    src: url('../fonts/text-fonts/Montserrat-Bold.WOFF') format('woff');
+    font-family: 'SourceSansPro-Bold';
+    src: url('../fonts/text-fonts/SourceSansPro-Bold.WOFF') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'montserrat-light';
-    src: url('../fonts/text-fonts/Montserrat-Light.WOFF') format('woff');
+    font-family: 'SourceSansPro-Light';
+    src: url('../fonts/text-fonts/SourceSansPro-Light.WOFF') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'montserrat-regular';
-    src: url('../fonts/text-fonts/Montserrat-Regular.WOFF') format('woff');
+    font-family: 'SourceSansPro-Regular';
+    src: url('../fonts/text-fonts/SourceSansPro-Regular.WOFF') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'averiasanslibre-bold';
-    src: url('../fonts/text-fonts/AveriaSansLibre-Bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'averiasanslibre-light.woff';
-    src: url('../fonts/text-fonts/AveriaSansLibre-Light.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'averiasanslibre-regular';
-    src: url('../fonts/text-fonts/AveriaSansLibre-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 // Setting variables for ever font-family
 // For header
-$header-bold: 'averiasanslibre-bold', sans-serif;
-$header-light: 'averiasanslibre-light', sans-serif;
-$header-regular: 'averiasanslibre-regular', sans-serif;
-
+$header-bold: 'SourceSansPro-Bold', sans-serif;
 // For custom text
-$text-bold: 'montserrat-bold', sans-serif;
-$text-light: 'montserrat-light', sans-serif;
-$text-regular: 'montserrat-regular', sans-serif;
+$text-regular: 'SourceSansPro-Regular', sans-serif;
+$text-light: 'SourceSansPro-Light', sans-serif;
 
 // Base Font-size
 $base-fontsize : 16px;
