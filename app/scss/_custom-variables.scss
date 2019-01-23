@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'montserrat-bold';
+    src: url('../fonts/text-fonts/Montserrat-Bold.WOFF') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-light';
+    src: url('../fonts/text-fonts/Montserrat-Light.WOFF') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url('../fonts/text-fonts/Montserrat-Regular.WOFF') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'averiasanslibre-bold';
+    src: url('../fonts/text-fonts/AveriaSansLibre-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'averiasanslibre-light.woff';
+    src: url('../fonts/text-fonts/AveriaSansLibre-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'averiasanslibre-regular';
+    src: url('../fonts/text-fonts/AveriaSansLibre-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+// Setting variables for ever font-family
+// For header
+$header-bold: 'averiasanslibre-bold', sans-serif;
+$header-light: 'averiasanslibre-light', sans-serif;
+$header-regular: 'averiasanslibre-regular', sans-serif;
+
+// For custom text
+$text-bold: 'montserrat-bold', sans-serif;
+$text-light: 'montserrat-light', sans-serif;
+$text-regular: 'montserrat-regular', sans-serif;
+
+// Base Font-size
+$base-fontsize : 16px;
+
+// Color variables 
+// Backgrounds
+$black-background: #191a1d;
+$container-black-background: #17181b;
+$white-background : #ffffff;
+
+// text
+$white-text: #ffffff;
+$grey-text: #d4d9dd;
+$red-text: #d1323d;
