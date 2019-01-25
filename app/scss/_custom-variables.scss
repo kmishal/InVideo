@@ -6,6 +6,13 @@
 }
 
 @font-face {
+    font-family: 'SourceSansPro-SemiBold';
+    src: url('../fonts/text-fonts/SourceSansPro-SemiBold.WOFF') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'SourceSansPro-Light';
     src: url('../fonts/text-fonts/SourceSansPro-Light.WOFF') format('woff');
     font-weight: normal;
@@ -22,6 +29,7 @@
 // Setting variables for ever font-family
 // For header
 $header-bold: 'SourceSansPro-Bold', sans-serif;
+$header-semibold: 'SourceSansPro-SemiBold', sans-serif;
 // For custom text
 $text-regular: 'SourceSansPro-Regular', sans-serif;
 $text-light: 'SourceSansPro-Light', sans-serif;
@@ -30,12 +38,11 @@ $text-light: 'SourceSansPro-Light', sans-serif;
 $base-fontsize : 16px;
 
 // Color variables 
-// Backgrounds
-$black-background: #191a1d;
-$container-black-background: #17181b;
-$white-background : #ffffff;
 
-// text
-$white-text: #ffffff;
-$grey-text: #d4d9dd;
-$red-text: #d1323d;
+$logo-color: #ebcb80;
+$white-background : #ffffff;
+$button-color: #ebcb80;
+
+// Text color
+$text-color-black: #4b4b4b;
+$text-color-white : #ffffff;

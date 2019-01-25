@@ -42,6 +42,12 @@ table {
   font-style: normal; }
 
 @font-face {
+  font-family: 'SourceSansPro-SemiBold';
+  src: url("../fonts/text-fonts/SourceSansPro-SemiBold.WOFF") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
   font-family: 'SourceSansPro-Light';
   src: url("../fonts/text-fonts/SourceSansPro-Light.WOFF") format("woff");
   font-weight: normal;
