@@ -61,7 +61,8 @@ table {
 
 body {
   font-size: 16px;
-  font-family: "SourceSansPro-Regular", sans-serif; }
+  font-family: "SourceSansPro-Regular", sans-serif;
+  color: #4b4b4b; }
 
 nav.navbar-default {
   background: transparent;
@@ -148,3 +149,16 @@ nav.navbar-default {
       text-transform: uppercase; }
     #features .section-content .content {
       margin: 45px 0; }
+      #features .section-content .content .feature-section {
+        margin: 20px 0; }
+        #features .section-content .content .feature-section .feature-head p {
+          font-size: 1.125em;
+          color: #4b4b4b;
+          font-family: "SourceSansPro-Bold", sans-serif;
+          text-transform: uppercase; }
+        #features .section-content .content .feature-section .feature-content {
+          margin: 15px 0; }
+          #features .section-content .content .feature-section .feature-content p {
+            font-size: 1em;
+            font-family: "SourceSansPro-Regular", sans-serif;
+            line-height: 1.3; }

@@ -4,6 +4,7 @@
 body{
     font-size: $base-fontsize;
     font-family: $text-regular;
+    color: $text-color-black;
 }
 
 // Navbar 
@@ -123,6 +124,25 @@ nav.navbar-default{
         }
         .content{
             margin: 45px 0;
+            .feature-section{
+                margin: 20px 0;
+                .feature-head{
+                    p{
+                        font-size: 1.125em;
+                        color: $text-color-black;
+                        font-family: $header-bold;
+                        text-transform: uppercase;
+                    }
+                }
+                .feature-content{
+                    margin: 15px 0;
+                    p{
+                        font-size: 1em;
+                        font-family: $text-regular;
+                        line-height: 1.3;
+                    }
+                }
+            }
         }
     }
 }
