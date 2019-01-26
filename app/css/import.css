@@ -75,3 +75,18 @@ table {
     text-transform: uppercase; }
   .section-content .content {
     margin: 45px 0; }
+
+.bg-grey-black {
+  background: #6b6b6b; }
+
+.bg-brown {
+  background: #efd693; }
+
+.bg-black {
+  background: #4b4b4b !important; }
+
+.color-black {
+  color: #4b4b4b !important; }
+
+.color-white {
+  color: #ffffff !important; }

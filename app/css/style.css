@@ -76,6 +76,21 @@ table {
   .section-content .content, #features .content, #plan .content {
     margin: 45px 0; }
 
+.bg-grey-black {
+  background: #6b6b6b; }
+
+.bg-brown {
+  background: #efd693; }
+
+.bg-black {
+  background: #4b4b4b !important; }
+
+.color-black {
+  color: #4b4b4b !important; }
+
+.color-white {
+  color: #ffffff !important; }
+
 body {
   font-size: 16px;
   font-family: "SourceSansPro-Regular", sans-serif;
@@ -201,3 +216,51 @@ nav.navbar-default {
   background: #f6f6f6;
   width: 100%;
   height: auto; }
+  #plan .pack-price {
+    max-width: 271px;
+    margin: 0 auto;
+    height: auto;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 4px 10px 0px #4b4b4b;
+    -moz-box-shadow: 2px 4px 10px 0px #4b4b4b;
+    box-shadow: 2px 4px 10px 0px #4b4b4b; }
+    #plan .pack-price .price-content {
+      padding: 15% 0; }
+      #plan .pack-price .price-content .pack-name {
+        font-size: 1.2em;
+        font-family: "SourceSansPro-SemiBold", sans-serif;
+        color: #ebcb80;
+        text-transform: uppercase; }
+      #plan .pack-price .price-content .pack-amount {
+        color: #ffffff;
+        font-size: 1.5em; }
+        #plan .pack-price .price-content .pack-amount .amount {
+          font-size: 3.1em;
+          font-family: "SourceSansPro-Bold", sans-serif;
+          display: inline-block;
+          position: relative;
+          margin: 5px; }
+          #plan .pack-price .price-content .pack-amount .amount span.dollar {
+            font-size: 0.5em;
+            font-family: "SourceSansPro-Regular", sans-serif;
+            position: absolute;
+            top: 10px;
+            left: -20px; }
+        #plan .pack-price .price-content .pack-amount .year {
+          font-size: 0.6em;
+          font-family: "SourceSansPro-SemiBold", sans-serif;
+          text-transform: uppercase;
+          margin-bottom: 25px; }
+      #plan .pack-price .price-content .pack-info {
+        color: #ffffff;
+        font-size: 1em;
+        line-height: 1.5; }
+      #plan .pack-price .price-content .pack-purchase-button {
+        padding-top: 40px; }
+        #plan .pack-price .price-content .pack-purchase-button .button {
+          background-color: #ebcb80;
+          padding: 10px 50px;
+          font-size: 1em;
+          border-radius: 50px;
+          text-transform: uppercase;
+          color: #4b4b4b; }

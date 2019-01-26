@@ -223,8 +223,64 @@ nav.navbar-default{
     background : $grey-background;
     width: 100%;
     height: auto;
-    
     @extend .section-content;
+    .pack-price{
+        max-width : 271px;
+        margin: 0 auto;
+        height: auto;
+        border-radius: 5px;
+        @include box-shadow(2px 4px 10px 0px rgba(75,75,75,1));
+        .price-content{
+            padding: 15% 0;
+            .pack-name{
+                font-size: 1.2em;
+                font-family: $header-semibold;
+                color: $text-color-brown;
+                text-transform: uppercase;
+            }
+            .pack-amount{
+                color: $text-color-white;
+                font-size: 1.5em;
+                .amount{
+                    font-size: 3.1em;
+                    font-family: $header-bold;
+                    display: inline-block;
+                    position: relative;
+                    margin: 5px;
+                    span.dollar{
+                        font-size: 0.5em;
+                        font-family: $text-regular;
+                        position: absolute;
+                        top: 10px;
+                        left: -20px;
+                    }
+                }
+                .year{
+                    font-size: 0.6em;
+                    font-family: $header-semibold;
+                    text-transform: uppercase;
+                    margin-bottom: 25px; 
+                }
+            }
+            .pack-info{
+                color: $text-color-white;
+                font-size: 1em;
+                line-height: 1.5; 
+            }
+            .pack-purchase-button{
+                padding-top: 40px;
+                .button{
+                    background-color: $button-color;
+                    padding : 10px 50px;
+                    font-size: 1em;
+                    border-radius: 50px;
+                    text-transform: uppercase;
+                    color: $text-color-black;
+                }
+            }
+        }
+    }
+
 }
 
 // ==================Section : Prices ends ======================

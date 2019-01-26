@@ -40,15 +40,26 @@ $base-fontsize : 16px;
 // Color variables 
 
 $logo-color: #ebcb80;
+$button-color: #ebcb80;
 $white-background : #ffffff;
 $grey-background : #f6f6f6;
-$button-color: #ebcb80;
+$light-black-background : #6b6b6b;
+$dark-black-background:  #4b4b4b;
+$brown-bakcground: #efd693;
 
 // Text color
 $text-color-black: #4b4b4b;
 $text-color-white : #ffffff;
+$text-color-brown: #ebcb80;
 
-// Extends
+// Mixins
+@mixin box-shadow($property) {
+    -webkit-box-shadow: $property;
+    -moz-box-shadow: $property;
+    box-shadow: $property;
+}
+
+// Common class to extend
 
 .section-content{
         padding:  2% 0;
@@ -69,4 +80,21 @@ $text-color-white : #ffffff;
         .content{
             margin: 45px 0;
         }
+    }
+
+    .bg-grey-black{
+        background: $light-black-background;
+    }
+    .bg-brown{
+        background : $brown-bakcground;
+    }
+    .bg-black{
+        background: $dark-black-background !important;
+    }
+
+    .color-black{
+        color: $text-color-black !important;
+    }
+    .color-white{
+         color: $text-color-white !important;
     }
