@@ -96,5 +96,23 @@ $text-color-brown: #ebcb80;
         color: $text-color-black !important;
     }
     .color-white{
-         color: $text-color-white !important;
+        color: $text-color-white !important;
     }
+
+    .navbarbg{
+    background: rgba(75, 75, 75, 1);
+    padding: 5px 0 10px 0;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.2s ease-in;
+    
+}
+.removeNavbarBg{
+    background:transparent;
+    padding: 0;
+    transition: 0.2s ease-out;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}

@@ -90,3 +90,19 @@ table {
 
 .color-white {
   color: #ffffff !important; }
+
+.navbarbg {
+  background: #4b4b4b;
+  padding: 5px 0 10px 0;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+  transition: 0.2s ease-in; }
+
+.removeNavbarBg {
+  background: transparent;
+  padding: 0;
+  transition: 0.2s ease-out;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none; }
