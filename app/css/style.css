@@ -59,6 +59,23 @@ table {
   font-weight: normal;
   font-style: normal; }
 
+.section-content, #features, #plan {
+  padding: 2% 0; }
+  .section-content .section-head, #features .section-head, #plan .section-head {
+    font-size: 2.50em;
+    font-family: "SourceSansPro-SemiBold", sans-serif;
+    color: #4b4b4b;
+    margin: 20px 0;
+    text-transform: capitalize; }
+  .section-content .section-subhead, #features .section-subhead, #plan .section-subhead {
+    font-size: 1em;
+    font-family: "SourceSansPro-SemiBold", sans-serif;
+    color: #4b4b4b;
+    margin: 2% 0;
+    text-transform: uppercase; }
+  .section-content .content, #features .content, #plan .content {
+    margin: 45px 0; }
+
 body {
   font-size: 16px;
   font-family: "SourceSansPro-Regular", sans-serif;
@@ -134,31 +151,53 @@ nav.navbar-default {
   width: 100%;
   height: auto;
   position: relative; }
-  #features .section-content {
-    margin: 5% 0; }
-    #features .section-content .section-head {
-      font-size: 2em;
-      font-family: "SourceSansPro-SemiBold", sans-serif;
+  #features .feature-section {
+    margin: 20px 0; }
+    #features .feature-section .feature-head p {
+      font-size: 1.125em;
       color: #4b4b4b;
-      margin: 20px 0; }
-    #features .section-content .section-subhead {
-      font-size: 1em;
-      font-family: "SourceSansPro-SemiBold", sans-serif;
-      color: #4b4b4b;
-      margin: 20px 0;
+      font-family: "SourceSansPro-Bold", sans-serif;
       text-transform: uppercase; }
-    #features .section-content .content {
-      margin: 45px 0; }
-      #features .section-content .content .feature-section {
-        margin: 20px 0; }
-        #features .section-content .content .feature-section .feature-head p {
-          font-size: 1.125em;
-          color: #4b4b4b;
-          font-family: "SourceSansPro-Bold", sans-serif;
-          text-transform: uppercase; }
-        #features .section-content .content .feature-section .feature-content {
-          margin: 15px 0; }
-          #features .section-content .content .feature-section .feature-content p {
-            font-size: 1em;
-            font-family: "SourceSansPro-Regular", sans-serif;
-            line-height: 1.3; }
+    #features .feature-section .feature-content {
+      margin: 15px 0; }
+      #features .feature-section .feature-content p {
+        font-size: 1em;
+        font-family: "SourceSansPro-Regular", sans-serif;
+        line-height: 1.3; }
+
+#call-to-action {
+  background: url("../images/call-to-action.jpg");
+  width: 100%;
+  height: 591px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: relative; }
+  #call-to-action .action-content {
+    padding-top: 18%;
+    text-align: center; }
+    #call-to-action .action-content .action-head {
+      font-size: 2.50em;
+      color: #ffffff;
+      font-family: "SourceSansPro-Bold", sans-serif;
+      text-transform: capitalize; }
+    #call-to-action .action-content .action-paragraph {
+      font-size: 1em;
+      font-family: "SourceSansPro-Regular", sans-serif;
+      line-height: 1.5;
+      color: #ffffff;
+      padding: 2% 25%; }
+    #call-to-action .action-content .call-to-action-button {
+      padding-top: 50px; }
+      #call-to-action .action-content .call-to-action-button a.action-button {
+        background-color: #ebcb80;
+        padding: 24px 73px;
+        font-size: 1.2em;
+        border-radius: 50px;
+        text-transform: uppercase;
+        color: #4b4b4b; }
+
+#plan {
+  background: #f6f6f6;
+  width: 100%;
+  height: auto; }

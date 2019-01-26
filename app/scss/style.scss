@@ -102,50 +102,129 @@ nav.navbar-default{
 //  =============Section : landing  Ends! ======================
 
 //  =============Section : Features section ======================
+// #features{
+//     background : $text-color-white;
+//     width: 100%;
+//     height: auto;
+//     position: relative;
+//     .section-content{
+//         margin:  5% 0;
+//         .section-head{
+//             font-size: 2.50em;
+//             font-family: $header-semibold;
+//             color: $text-color-black;
+//             margin: 20px 0;
+//         }
+//         .section-subhead{
+//             font-size: 1em;
+//             font-family: $header-semibold;
+//             color: $text-color-black;
+//             margin: 2% 0;
+//             text-transform: uppercase;
+//         }
+//         .content{
+//             margin: 45px 0;
+//             .feature-section{
+//                 margin: 20px 0;
+//                 .feature-head{
+//                     p{
+//                         font-size: 1.125em;
+//                         color: $text-color-black;
+//                         font-family: $header-bold;
+//                         text-transform: uppercase;
+//                     }
+//                 }
+//                 .feature-content{
+//                     margin: 15px 0;
+//                     p{
+//                         font-size: 1em;
+//                         font-family: $text-regular;
+//                         line-height: 1.3;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
 #features{
     background : $text-color-white;
     width: 100%;
     height: auto;
     position: relative;
-    .section-content{
-        margin:  5% 0;
-        .section-head{
-            font-size: 2em;
-            font-family: $header-semibold;
-            color: $text-color-black;
-            margin: 20px 0;
+    @extend .section-content;
+    .feature-section{
+        margin: 20px 0;
+        .feature-head{
+            p{
+                font-size: 1.125em;
+                color: $text-color-black;
+                font-family: $header-bold;
+                text-transform: uppercase;
+            }
         }
-        .section-subhead{
-            font-size: 1em;
-            font-family: $header-semibold;
-            color: $text-color-black;
-            margin: 20px 0;
-            text-transform: uppercase;
-        }
-        .content{
-            margin: 45px 0;
-            .feature-section{
-                margin: 20px 0;
-                .feature-head{
-                    p{
-                        font-size: 1.125em;
-                        color: $text-color-black;
-                        font-family: $header-bold;
-                        text-transform: uppercase;
-                    }
-                }
-                .feature-content{
-                    margin: 15px 0;
-                    p{
-                        font-size: 1em;
-                        font-family: $text-regular;
-                        line-height: 1.3;
-                    }
-                }
+        .feature-content{
+            margin: 15px 0;
+            p{
+                font-size: 1em;
+                font-family: $text-regular;
+                line-height: 1.3;
             }
         }
     }
 }
 
-//  =============Section : Features section ======================
+//  =============Section : Features section ends ======================
 
+//  =============Section : Call to action area ======================
+#call-to-action{
+    background: url("../images/call-to-action.jpg");
+    width: 100%;
+    height: 591px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: relative;
+    .action-content{
+        padding-top: 18%;
+        text-align: center;
+        .action-head{
+            font-size: 2.50em;
+            color: $text-color-white;
+            font-family: $header-bold;
+            text-transform: capitalize;
+        }
+        .action-paragraph{
+            font-size: 1em;
+            font-family: $text-regular;
+            line-height: 1.5;
+            color: $text-color-white;
+            padding: 2% 25%;
+
+        }
+        .call-to-action-button{
+            padding-top: 50px;
+            a.action-button{
+            background-color: $button-color;
+            padding : 24px 73px;
+            font-size: 1.2em;
+            border-radius: 50px;
+            text-transform: uppercase;
+            color: $text-color-black;
+            }
+        }
+    }
+}
+//  =============Section : Call to action area ends! ======================
+
+
+// ==================Section : Prices ======================
+#plan{
+    background : $grey-background;
+    width: 100%;
+    height: auto;
+    
+    @extend .section-content;
+}
+
+// ==================Section : Prices ends ======================

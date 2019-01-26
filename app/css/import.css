@@ -58,3 +58,20 @@ table {
   src: url("../fonts/text-fonts/SourceSansPro-Regular.WOFF") format("woff");
   font-weight: normal;
   font-style: normal; }
+
+.section-content {
+  padding: 2% 0; }
+  .section-content .section-head {
+    font-size: 2.50em;
+    font-family: "SourceSansPro-SemiBold", sans-serif;
+    color: #4b4b4b;
+    margin: 20px 0;
+    text-transform: capitalize; }
+  .section-content .section-subhead {
+    font-size: 1em;
+    font-family: "SourceSansPro-SemiBold", sans-serif;
+    color: #4b4b4b;
+    margin: 2% 0;
+    text-transform: uppercase; }
+  .section-content .content {
+    margin: 45px 0; }
