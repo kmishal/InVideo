@@ -4,10 +4,15 @@
   ##Screen = 1281px to higher resolution desktops
 */
 
-@media (min-width: 1281px) {
+@media (min-width: 1025px) {
   
   //CSS
-  
+   .show-tablet{
+      display: none;
+  }
+   .hide-tab{
+      display: block;
+  }
 }
 
 /* 
@@ -36,15 +41,58 @@
             left: 48%;
         }
     } 
-  } 
+  }
+  
+//   section : features
+   .show-tablet{
+      display: block;
+  }
+  .hide-tab{
+      display: none;
+  }
+  
+//   section : call to action
+#call-to-action{
+        height: 500px;
+    .action-content{
+        .action-head{
+            font-size: 1.8em;
+        }
+        .action-paragraph{
+            padding: 2% 10%;
+        }
+    .call-to-action-button{
+        a.action-button{
+            padding: 14px 50px;
+        }
+    } 
+    }
+}
+
   
   
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
   //CSS
-  
+  .show-tablet{
+      display: block;
+  }
+  #features{
+    .container{
+        width: 100%;
+    }
+  }
+  .add-pad-spacing{
+      padding-left: 8%;
+  }
+  .half-laptop{
+       position: absolute;
+        top: 0;
+        left: 0;
+        height: 520px;
+  }
   
 }
 
@@ -53,9 +101,29 @@
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   
   //CSS
+   .add-pad-spacing{
+      padding-left: 8%;
+  }
+  .half-laptop{
+       position: absolute;
+        top: 0;
+        left: 8;
+        height: 520px;
+  }
+  #features{
+    .feature-section{
+        text-align: center;
+        .feature-head{
+            margin-top: 10px;
+        }
+        .feature-content{
+            margin: 15px 0;
+        }
+    }
+}
   
 }
 
@@ -72,6 +140,12 @@
       display: none;
   }
   .show-mobile{
+      display: block;
+  }
+   .show-tablet{
+      display: none;
+  } 
+  .hide-tab{
       display: block;
   }
   nav.navbar-custom{
@@ -93,6 +167,24 @@
   .navbar-bg{
     background: none;
   }
+
+//  Section : Features
+
+ #features{
+    .feature-section{
+        .feature-head{
+            margin-top: 10px;
+        }
+        .feature-content{
+            margin: 15px 0;
+        }
+    }
+}
+.section-content{
+        .section-head{
+            font-size: 2em !important;
+        }
+    }
   
   
 }
@@ -122,6 +214,30 @@
                     max-width: 340px;
                 }
             }
+        }
+    }
+
+    #call-to-action{
+        .action-content{
+            .action-head{
+                font-size: 1.5em;
+                margin: 15px 0;
+            }
+            .action-paragraph{
+                padding: 2% 5%;
+            }
+            .call-to-action-button{
+                a.action-button{
+                    padding: 14px 50px;
+                }
+            } 
+        }
+    }
+
+    // Price -section
+    #plan{
+        .pack-price{
+            margin: 15px auto;
         }
     }
 }
