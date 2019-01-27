@@ -116,3 +116,38 @@ $text-color-brown: #ebcb80;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
 }
+.mobile-social-menus{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    .social-icons{
+        li{
+            display: inline-block;
+            i{
+
+            font-size: 1.4em;
+            color: $text-color-white;
+
+            }
+        }
+    }
+}
+
+ .navbar-toggle{
+    border: none;
+    span.icon-bar{
+        color: $text-color-white;
+        background:  $text-color-white;
+    }
+    .icon-bar:nth-child(4n){
+        width: 15px;
+        float: right;
+    }
+  }
+
+  .down-arrow{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+  }

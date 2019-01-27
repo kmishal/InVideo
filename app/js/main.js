@@ -15,4 +15,18 @@ $(document).ready(function() {
         }
     });
 
+    // Remove class container and container-fluid to nav when site  is in tablet tablet view
+    $(window).resize(function(){
+        if ($(window).width() <= 1024){ 
+            $(".navbar .container")
+              .addClass("container-fluid")
+              .removeClass("container");
+        }
+        else{ 
+            $(".navbar .container-fluid")
+              .removeClass("container-fluid")
+              .addClass("container");;
+        } 
+    });
+
 })

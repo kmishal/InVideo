@@ -13,12 +13,14 @@
     <link rel="stylesheet" href="./css/customfonts.css">
     <!-- Cutom css -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Media queries -->
+    <link rel="stylesheet" href="./css/media-queries.css">
 
 </head>
 
 <body>
     <!--  Main Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-custom navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -30,6 +32,19 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">H.</a>
+                <div class="mobile-social-menus">
+                    <ul class="nav navbar-nav nav-mobile social-icons show-mobile">
+                        <li>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-instagram"></i></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -54,7 +69,7 @@
                     <a href="#"><i class="fab fa-facebook-square"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></i></a>
                 </div> -->
-                <ul class="nav navbar-nav pull-right social-icons">
+                <ul class="nav navbar-nav pull-right social-icons hide-mobile">
                     <li>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                     </li>
@@ -65,6 +80,8 @@
                         <a href="#"><i class="fab fa-instagram"></i></i></a>
                     </li>
                 </ul>
+
+                <!-- Show navigation to center of navbar in mobile devices -->
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -75,6 +92,7 @@
     <!-- Section : Landing Page -->
     <section id="landing-page">
         <div class="overlay"></div>
+        <img src="./images/icon/down-arrow.png" width="32px" class="down-arrow show-mobile" alt="down-arrow">
         <div class="container">
             <!-- Content for landing page -->
             <div class="landing-page-content">

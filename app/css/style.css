@@ -107,27 +107,52 @@ table {
   -moz-box-shadow: none;
   -webkit-box-shadow: none; }
 
+.mobile-social-menus {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%); }
+  .mobile-social-menus .social-icons li {
+    display: inline-block; }
+    .mobile-social-menus .social-icons li i {
+      font-size: 1.4em;
+      color: #ffffff; }
+
+.navbar-toggle {
+  border: none; }
+  .navbar-toggle span.icon-bar {
+    color: #ffffff;
+    background: #ffffff; }
+  .navbar-toggle .icon-bar:nth-child(4n) {
+    width: 15px;
+    float: right; }
+
+.down-arrow {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%); }
+
 body {
   font-size: 16px;
   font-family: "SourceSansPro-Regular", sans-serif;
   color: #4b4b4b; }
 
-nav.navbar-default {
+nav.navbar-custom {
   border: none;
   padding: 26px 0; }
-  nav.navbar-default .navbar-brand {
+  nav.navbar-custom .navbar-brand {
     font-family: "SourceSansPro-Bold", sans-serif;
     font-size: 1.875em;
     color: #ebcb80; }
-  nav.navbar-default .navbar-collapse ul.navbar-center {
+  nav.navbar-custom .navbar-collapse ul.navbar-center {
     position: absolute;
     left: 50%;
     transform: translatex(-50%); }
-    nav.navbar-default .navbar-collapse ul.navbar-center li a {
+    nav.navbar-custom .navbar-collapse ul.navbar-center li a {
       text-transform: uppercase;
       font-family: "SourceSansPro-Bold", sans-serif;
       color: #ffffff; }
-  nav.navbar-default .navbar-collapse .social-icons i {
+  nav.navbar-custom .navbar-collapse .social-icons i {
     font-size: 1.4em;
     color: #ffffff; }
 
